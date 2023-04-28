@@ -1,23 +1,24 @@
-import './App.css';
+import "./App.css";
 
-import Header from './components/Header';
-import Balance from './components/Balance';
-import IncomeExpences from './components/IncomeExpences';
-import TransactionList from './components/TransactionList';
-import Addtransaction from './components/Addtransaction';
+import Header from "./components/Header";
+import Balance from "./components/Balance";
+import IncomeExpences from "./components/IncomeExpences";
+import TransactionList from "./components/TransactionList";
+import Addtransaction from "./components/Addtransaction";
 
+import { GlobalProvider } from "./context/GlobalState";
 
 function App() {
   return (
-   <div>
-    <Header />
-    <div className="container">
-      <Balance />
-      <IncomeExpences />
-      <TransactionList />
-      <Addtransaction />
-    </div>
-   </div>
+    <GlobalProvider>
+      <Header />
+      <div className="container">
+        <Balance />
+        <IncomeExpences />
+        <TransactionList />
+        <Addtransaction />
+      </div>
+    </GlobalProvider>
   );
 }
 
