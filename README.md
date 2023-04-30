@@ -9,7 +9,7 @@ A simple web application that helps you track your expenses.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
@@ -42,8 +42,5 @@ To use Expense Tracker, simply open the application in your web browser at `http
 
 ##  Contributing
 
-Contributions to Expense Tracker are welcome! If you have an idea for a new feature or want to fix a bug, simply fork the repository, make your changes, and submit a pull request. Please make sure to follow the [contribution guidelines](CONTRIBUTING.md) and [code of conduct](CODE_OF_CONDUCT.md).
+Contributions to Expense Tracker are welcome! If you have an idea for a new feature or want to fix a bug, simply fork the repository, make your changes, and submit a pull request.
 
-##  License
-
-Expense Tracker is open source software licensed under the [MIT License](LICENSE).
