@@ -19,9 +19,9 @@ Expense Tracker is a web application that allows you to track your expenses easi
 
 - Add new expenses with a description, amount, and category.
 - Categorize expenses into predefined categories such as food, transportation, entertainment, etc.
-- View a list of all expenses and filter them by category, date range, or keyword.
-- View summary statistics such as total expenses, average expenses per day, and expenses by category.
-- View charts and graphs to visualize your expenses and analyze your spending habits.
+- View a list of all expenses and filter them.
+- View summary statistics.
+
 
 ## Installation
 
